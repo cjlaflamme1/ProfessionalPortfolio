@@ -69,37 +69,30 @@
     <div class="section white" id="sectionTwo">
         <div class="row container">
             <h2 class="header">Portfolio</h2>
-            <p class="grey-text text-darken-3 lighten-3">Click on any of the projects below to learn more.</p>
+            <p class="grey-text text-darken-3 lighten-3">Click on any of the projects below for a quick preview.</p>
            
             <div class="slider">
-                <ul class="slides">
+                <ul class="slides hoverable">
                   <li>
                       <!-- Change image to blank shot of background? -->
-                    <a class="modal-trigger" href="#modal1"><img src="./src/assets/images/project1.jpg" class="responsive-img"></a> <!-- random image -->
-                    <div class="caption center-align">
-                      <h3>This is our big Tagline!</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <a class="modal-trigger" href="#modal1"><img src="./src/assets/images/myCovidTracker.jpg" class="responsive-img"></a> <!-- random image -->
+                    <div class="caption left-align modal-trigger" href="#modal1">
+                      <h3>My Covid Tracker</h3>
+                      <h5 class="light grey-text text-lighten-3">Your source for current Coronavirus updates.</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-                    <div class="caption left-align">
-                      <h3>Left Aligned Caption</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <img class="modal-trigger" href="#modal2" src="./src/assets/images/weatherDashboard.jpg"> <!-- random image -->
+                    <div class="caption black-text right-align modal-trigger" href="#modal2">
+                      <h3>Weather Dashboard</h3>
+                      <h5 class="light black-text text-lighten-3">Your personalized weather station.</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-                    <div class="caption right-align">
-                      <h3>Right Aligned Caption</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-                    <div class="caption center-align">
-                      <h3>This is our big Tagline!</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <img class="modal-trigger" href="#modal3" src="./src/assets/images/workdayScheduler.jpg"> <!-- random image -->
+                    <div class="caption black-text right-align modal-trigger" href="#modal3">
+                      <h3>Work Day Scheduler</h3>
+                      <h5 class="light black-text text-lighten-3">Organize your day with this handy web app.</h5>
                     </div>
                   </li>
                 </ul>
@@ -108,11 +101,13 @@
             <!-- Modal for Project 1 -->
             <div id="modal1" class="modal">
                 <div class="modal-content">
-                    <h4>Modal Header</h4>
-                    <p>A bunch of text</p>
+                    <h4>My Covid Tracker</h4>
+                    <img src="./src/assets/images/myCovidModal.jpg" alt="Snapshot of My Covid App" class="responsive-img">
+                    <p><a href="https://cjlaflamme1.github.io/MyCovidTracker/index.html">Click here to try for yourself</a></p>
+                    <p><a href="https://github.com/cjlaflamme1/MyCovidTracker">Click here to check out the repository on Github</a></p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Return to Main</a>
                 </div>
             </div>
             <!-- Modal for Project 2 -->
