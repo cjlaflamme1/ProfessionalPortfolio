@@ -11,3 +11,12 @@ img.responsive-img {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
+div.resumeModal {
+    max-height: 100%;
+    height: 80%;
+    width: 100%;
+}
+div.resumeContent {
+    height: 100%;
+}

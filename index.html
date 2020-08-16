@@ -19,7 +19,7 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#sectionOne">About Me</a></li>
                     <li><a href="#sectionTwo">Project Portfolio</a></li>
-                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="#sectionThree">Professional Resume</a></li>
                     <li><a href="mobile.html">Mobile</a></li>
                 </ul>
             </div>
@@ -29,10 +29,10 @@
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#sectionOne">About Me</a></li>
         <li><a href="#sectionTwo">Project Portfolio</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="#sectionThree">Professional Resume</a></li>
         <li><a href="mobile.html">Mobile</a></li>
     </ul>
-    <!-- Section One -->
+    <!-- Section One: Intro -->
     <div class="parallax-container" id="topOfPage">
         <div class="parallax"><img class="responsive-img" src="./src/assets/images/firstImage.jpg"></div>
     </div>
@@ -70,41 +70,47 @@
         <div class="row container">
             <h2 class="header">Portfolio</h2>
             <p class="grey-text text-darken-3 lighten-3">Click on any of the projects below for a quick preview.</p>
-           
+
             <div class="slider">
                 <ul class="slides hoverable">
-                  <li>
-                      <!-- Change image to blank shot of background? -->
-                    <a class="modal-trigger" href="#modal1"><img src="./src/assets/images/myCovidTracker.jpg" class="responsive-img"></a> <!-- random image -->
-                    <div class="caption left-align modal-trigger" href="#modal1">
-                      <h3>My Covid Tracker</h3>
-                      <h5 class="light grey-text text-lighten-3">Your source for current Coronavirus updates.</h5>
-                    </div>
-                  </li>
-                  <li>
-                    <img class="modal-trigger" href="#modal2" src="./src/assets/images/weatherDashboard.jpg"> <!-- random image -->
-                    <div class="caption black-text right-align modal-trigger" href="#modal2">
-                      <h3>Weather Dashboard</h3>
-                      <h5 class="light black-text text-lighten-3">Your personalized weather station.</h5>
-                    </div>
-                  </li>
-                  <li>
-                    <img class="modal-trigger" href="#modal3" src="./src/assets/images/workdayScheduler.jpg"> <!-- random image -->
-                    <div class="caption black-text right-align modal-trigger" href="#modal3">
-                      <h3>Work Day Scheduler</h3>
-                      <h5 class="light black-text text-lighten-3">Organize your day with this handy web app.</h5>
-                    </div>
-                  </li>
+                    <li>
+                        <!-- Change image to blank shot of background? -->
+                        <a class="modal-trigger" href="#modal1"><img src="./src/assets/images/myCovidTracker.jpg"
+                                class="responsive-img"></a> <!-- random image -->
+                        <div class="caption left-align modal-trigger" href="#modal1">
+                            <h3>My Covid Tracker</h3>
+                            <h5 class="light grey-text text-lighten-3">Your source for current Coronavirus updates.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="modal-trigger" href="#modal2" src="./src/assets/images/weatherDashboard.jpg">
+                        <!-- random image -->
+                        <div class="caption black-text right-align modal-trigger" href="#modal2">
+                            <h3>Weather Dashboard</h3>
+                            <h5 class="light black-text text-lighten-3">Your personalized weather station.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="modal-trigger" href="#modal3" src="./src/assets/images/workdayScheduler.jpg">
+                        <!-- random image -->
+                        <div class="caption black-text right-align modal-trigger" href="#modal3">
+                            <h3>Work Day Scheduler</h3>
+                            <h5 class="light black-text text-lighten-3">Organize your day with this handy web app.</h5>
+                        </div>
+                    </li>
                 </ul>
-              </div>
+            </div>
 
             <!-- Modal for Project 1 -->
             <div id="modal1" class="modal">
                 <div class="modal-content">
                     <h4>My Covid Tracker</h4>
-                    <img src="./src/assets/images/myCovidModal.jpg" alt="Snapshot of My Covid App" class="responsive-img">
-                    <p><a href="https://cjlaflamme1.github.io/MyCovidTracker/index.html">Click here to try for yourself</a></p>
-                    <p><a href="https://github.com/cjlaflamme1/MyCovidTracker">Click here to check out the repository on Github</a></p>
+                    <img src="./src/assets/images/myCovidModal.jpg" alt="Snapshot of My Covid App"
+                        class="responsive-img">
+                    <p><a href="https://cjlaflamme1.github.io/MyCovidTracker/index.html">Click here to try for
+                            yourself</a></p>
+                    <p><a href="https://github.com/cjlaflamme1/MyCovidTracker">Click here to check out the repository on
+                            Github</a></p>
                 </div>
                 <div class="modal-footer">
                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Return to Main</a>
@@ -114,9 +120,11 @@
             <div id="modal2" class="modal">
                 <div class="modal-content">
                     <h4>Weather Dashboard</h4>
-                    <img src="./src/assets/images/weatherCloseup.jpg" alt="Weather Dashboard Zoomed in" class="responsive-img" />
+                    <img src="./src/assets/images/weatherCloseup.jpg" alt="Weather Dashboard Zoomed in"
+                        class="responsive-img" />
                     <p><a href="https://cjlaflamme1.github.io/WeatherDashboard/">Click here to try for yourself</a></p>
-                    <p><a href="https://github.com/cjlaflamme1/WeatherDashboard">Click here to check out the repository on Github</a></p>
+                    <p><a href="https://github.com/cjlaflamme1/WeatherDashboard">Click here to check out the repository
+                            on Github</a></p>
                 </div>
                 <div class="modal-footer">
                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Return to Main</a>
@@ -126,9 +134,12 @@
             <div id="modal3" class="modal">
                 <div class="modal-content">
                     <h4>Weather Dashboard</h4>
-                    <img src="./src/assets/images/workdaySchedulerZoom.jpg" alt="Work Day Scheduler Zoomed in" class="responsive-img" />
-                    <p><a href="https://cjlaflamme1.github.io/05_WorkDayScheduler/">Click here to try for yourself</a></p>
-                    <p><a href="https://github.com/cjlaflamme1/05_WorkDayScheduler">Click here to check out the repository on Github</a></p>
+                    <img src="./src/assets/images/workdaySchedulerZoom.jpg" alt="Work Day Scheduler Zoomed in"
+                        class="responsive-img" />
+                    <p><a href="https://cjlaflamme1.github.io/05_WorkDayScheduler/">Click here to try for yourself</a>
+                    </p>
+                    <p><a href="https://github.com/cjlaflamme1/05_WorkDayScheduler">Click here to check out the
+                            repository on Github</a></p>
                 </div>
                 <div class="modal-footer">
                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Return to Main</a>
@@ -136,15 +147,26 @@
             </div>
         </div>
     </div>
-    <!-- Section Three -->
+    <!-- Section Three: Resume -->
     <div class="parallax-container">
         <div class="parallax"><img src="./src/assets/images/thirdImage.jpg"></div>
     </div>
-    <div class="section white">
+    <div class="section white" id="sectionThree">
         <div class="row container">
-            <h2 class="header">Parallax</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in
-                this case, is moved at a different speed than the foreground content while scrolling.</p>
+            <h2 class="header">Resume</h2>
+            <p class="grey-text text-darken-3 lighten-3">Click to learn more.</p>
+            <a href="#modal4" class="modal-trigger"><img src="./src/assets/images/resumePreview.jpg" alt="Resume Preview" /></a>
+            <div id="modal4" class="modal resumeModal">
+                <div class="modal-content resumeContent">
+                    <h4>Chad J Laflamme</h4>
+                    <iframe src="./src/assets/images/Resume_Laflamme_Chad.pdf" alt="Work Day Scheduler Zoomed in"
+                        class="responsive-img" width="100%" height="90%"></iframe>
+                    
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Return to Main</a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Section Four -->
