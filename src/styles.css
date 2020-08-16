@@ -20,6 +20,9 @@ div.resumeModal {
 div.resumeContent {
     height: 100%;
 }
+img.resumePreview {
+    max-width: 100%;
+}
 
 div.contactLogos {
     display: flex;
