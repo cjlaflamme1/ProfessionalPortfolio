@@ -39,6 +39,10 @@ a.emailAddress {
     text-align: center;
 }
 
+div.slider ul.indicators li.indicator-item {
+    background-color: blue;
+}
+
 @media screen and (max-width: 550px) {
     a.brand-logo,
     a.sidenav-trigger i.material-icons {
