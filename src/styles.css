@@ -38,3 +38,10 @@ a.emailAddress {
     display: none;
     text-align: center;
 }
+
+@media screen and (max-width: 550px) {
+    a.brand-logo,
+    a.sidenav-trigger i.material-icons {
+        font-size: 20px;
+    }
+}
