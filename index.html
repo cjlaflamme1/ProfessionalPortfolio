@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <script src="https://kit.fontawesome.com/9e18e38d36.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./src/styles.css" />
     <title>Chad J Laflamme</title>
 </head>
@@ -20,7 +21,7 @@
                     <li><a href="#sectionOne">About Me</a></li>
                     <li><a href="#sectionTwo">Project Portfolio</a></li>
                     <li><a href="#sectionThree">Professional Resume</a></li>
-                    <li><a href="mobile.html">Mobile</a></li>
+                    <li><a href="#sectionFour">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,7 +31,7 @@
         <li><a href="#sectionOne">About Me</a></li>
         <li><a href="#sectionTwo">Project Portfolio</a></li>
         <li><a href="#sectionThree">Professional Resume</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="sectionFour">Contact Me</a></li>
     </ul>
     <!-- Section One: Intro -->
     <div class="parallax-container" id="topOfPage">
@@ -68,15 +69,15 @@
     </div>
     <div class="section white" id="sectionTwo">
         <div class="row container">
-            <h2 class="header">Portfolio</h2>
+            <h2 class="header">Project Portfolio</h2>
             <p class="grey-text text-darken-3 lighten-3">Click on any of the projects below for a quick preview.</p>
 
             <div class="slider">
                 <ul class="slides hoverable">
                     <li>
-                        <!-- Change image to blank shot of background? -->
+                        
                         <a class="modal-trigger" href="#modal1"><img src="./src/assets/images/myCovidTracker.jpg"
-                                class="responsive-img"></a> <!-- random image -->
+                                class="responsive-img"></a> 
                         <div class="caption left-align modal-trigger" href="#modal1">
                             <h3>My Covid Tracker</h3>
                             <h5 class="light grey-text text-lighten-3">Your source for current Coronavirus updates.</h5>
@@ -84,7 +85,7 @@
                     </li>
                     <li>
                         <img class="modal-trigger" href="#modal2" src="./src/assets/images/weatherDashboard.jpg">
-                        <!-- random image -->
+                        
                         <div class="caption black-text right-align modal-trigger" href="#modal2">
                             <h3>Weather Dashboard</h3>
                             <h5 class="light black-text text-lighten-3">Your personalized weather station.</h5>
@@ -92,7 +93,7 @@
                     </li>
                     <li>
                         <img class="modal-trigger" href="#modal3" src="./src/assets/images/workdayScheduler.jpg">
-                        <!-- random image -->
+
                         <div class="caption black-text right-align modal-trigger" href="#modal3">
                             <h3>Work Day Scheduler</h3>
                             <h5 class="light black-text text-lighten-3">Organize your day with this handy web app.</h5>
@@ -155,7 +156,7 @@
         <div class="row container">
             <h2 class="header">Resume</h2>
             <p class="grey-text text-darken-3 lighten-3">Click to learn more.</p>
-            <a href="#modal4" class="modal-trigger"><img src="./src/assets/images/resumePreview.jpg" alt="Resume Preview" /></a>
+            <a href="#modal4" class="modal-trigger hoverable"><img src="./src/assets/images/resumePreview.jpg" alt="Resume Preview" /></a>
             <div id="modal4" class="modal resumeModal">
                 <div class="modal-content resumeContent">
                     <h4>Chad J Laflamme</h4>
@@ -169,28 +170,28 @@
             </div>
         </div>
     </div>
-    <!-- Section Four -->
+    <!-- Section Four: Contact Me -->
     <div class="parallax-container">
         <div class="parallax"><img src="./src/assets/images/fourthImage.jpg"></div>
     </div>
-    <div class="section white">
+    <div class="section white" id="sectionFour">
         <div class="row container">
-            <h2 class="header">Parallax</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in
-                this case, is moved at a different speed than the foreground content while scrolling.</p>
+            <h2 class="header">Contact Me</h2>
+            <div class="contactLogos">
+                <a href="https://www.linkedin.com/in/chad-j-laflamme/" target="_blank"><i class="fab fa-linkedin hoverable"></i></a>
+                <a href="https://github.com/cjlaflamme1" target="_blank"><i class="fab fa-github-square hoverable"></i></a>
+                <a href="mailto:cjlaflamme1@plymouth.edu"><i class="fas fa-envelope-square hoverable"></i></a>
+                <a href="tel:9492044740"><i class="fas fa-phone-square hoverable"></i></a>
+            </div>
+            <a href="tel:9492044740" class="phoneNumber"><p>(949)-204-4740</p></a>
+            <a href="mailto:cjlaflamme1@plymouth.edu" class="emailAddress"><p>CJLaflamme1@plymouth.edu</p></a>
         </div>
     </div>
     <!-- Section Five -->
     <div class="parallax-container">
         <div class="parallax"><img src="./src/assets/images/fifthImage.jpg"></div>
     </div>
-    <div class="section white">
-        <div class="row container">
-            <h2 class="header">Parallax</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in
-                this case, is moved at a different speed than the foreground content while scrolling.</p>
-        </div>
-    </div>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
