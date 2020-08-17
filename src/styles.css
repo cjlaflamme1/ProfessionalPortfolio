@@ -46,6 +46,10 @@ div.slider ul.indicators li.indicator-item {
     background-color: blue;
 }
 
+div.slider ul.indicators li.indicator-item.active {
+    background-color: yellow;
+}
+
 @media screen and (max-width: 550px) {
     a.brand-logo,
     a.sidenav-trigger i.material-icons {
