@@ -27,7 +27,7 @@ Develop a portfolio that displays a bio, current work, resume, and contact infor
     * Basic: HTML, CSS, Javascript
     * JQuery
     * Materialize
-    *FontAwesome
+    * FontAwesome
 
 
 ## Finished Project
@@ -35,8 +35,9 @@ Project Link: [My Professional Portfolio](https://cjlaflamme1.github.io/Professi
 
 
 ## Project Screenshot
-
-
+![screenShot1](https://user-images.githubusercontent.com/64158642/90347868-f7c92d80-e000-11ea-96e2-3369bfea246e.jpg)
+![screenShot2](https://user-images.githubusercontent.com/64158642/90347870-f8fa5a80-e000-11ea-91cd-a7983e84a939.jpg)
+![screenShot3](https://user-images.githubusercontent.com/64158642/90347871-fac41e00-e000-11ea-807d-fcb38588e980.jpg)
 
 
 <!-- CONTACT -->
