@@ -2,6 +2,10 @@ html {
     scroll-padding-top: 35px;
 }
 
+.background-grey {
+    background-color: rgba(196, 192, 192, 0.7);
+}
+
 div.parallax img {
     width: 100%;
     height: auto;
